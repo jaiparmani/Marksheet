@@ -1,0 +1,109 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Old_English_Text_MT.ttf);
+}
+
+h2.title {
+  font-family: myFirstFont;
+  color: "blue";
+  text-align: center;
+}
+h2 {
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  background: rgb(242, 224, 223);
+  border: 10px solid rgb(242, 164, 186);
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin: 0px;
+  /* height: 800px; */
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: rgb(231, 205, 210);
+  border-right: 1px solid black;
+  /* style="border-right:1px solid black" */
+}
+#Marks {
+  padding: 2.5px;
+  margin: 10px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#marksheetRows {
+  /* TODO change the pink color here */
+
+  border: 0px rgb(231, 205, 210);
+}
+th#header {
+  background-color: rgb(232, 222, 207);
+  /* background-color: rgb(233, 221, 207); */
+}
+td.noBorderTable {
+  border: 0px;
+}
+tr.noBorderTable {
+  border: 1px;
+}
+th.noBorderTable {
+  border: 1px;
+}
+table {
+}
+tfoot td {
+  /* background: black; */
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+img.logo {
+  border-radius: 50%;
+}
+
+.QR {
+  /* margin: 10 10 10 100; */
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+img.signatureWrapper {
+  margin-top: 70px;
+  float: right;
+  margin-right: -100px;
+  padding: 0px;
+}
+
+#signatureCaption {
+  float: right;
+  margin-top: -25px;
+}
+
+#QRcaption {
+  font-size: 10px;
+  float: left;
+  margin-top: -62px;
+  text-align: left;
+  margin-left: 1px;
+}
+
+.examineeInfo {
+  font-size: 12px;
+  padding: 0px;
+}
